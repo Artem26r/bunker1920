@@ -1,0 +1,53 @@
+header {
+  display: flex;
+  max-width: 1124px;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  svg {
+    width: 320px;
+    height: 170px;
+  }
+
+  span {
+    font-size: 28px;
+    position: relative;
+    &::before {
+      content: "";
+      display: block;
+      position: absolute;
+      bottom: -16px;
+      width: 50%;
+      left: 25%;
+      height: 8px;
+      background: #00dd00;
+    }
+  }
+  padding-bottom: 16px;
+}
+
+.right {
+  padding-left: 16px;
+}
+.rightTitie {
+  padding-bottom: 8px;
+}
+.abbreviation {
+  span {
+    color: white;
+  }
+  div {
+    display: inline;
+  }
+  padding-bottom: 12px;
+  border-bottom: 4px dashed #00dd00;
+}
+.version {
+  margin-top: 16px;
+}
+.error {
+  color: red;
+}
