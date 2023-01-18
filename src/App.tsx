@@ -7,7 +7,7 @@ function App() {
   return (
     <>
       <div className="overlay"></div>
-      {/* <div className="scanline"></div> */}
+      <div className="scanline"></div>
       <Container>
         <Routes>
           <Route path="/" element={<Main />} />
